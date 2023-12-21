@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cuprum&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style_auth.css">
+    <title>Авторизация</title>
+</head>
+
+<body class="auth">
+    <div class="field">
+        <div class="logform">
+            <h1>Авторизация</h1>
+            <form method="POST" action="https://httpbin.org/post" enctype="multipart/form-data">
+                <div class="box tlbox">
+                    <label for="usrname">Логин:</label>
+                    <input type="text" id="name" name="usrname" required>
+                </div>
+                <div class="box tlbox">
+                    <label for="pass">Пароль:</label>
+                    <input type="pass" id="pass" name="pass" required>
+                </div>
+                <div class="box">
+                    <input type="checkbox" name="agree" id="agree" value="true">
+                    <label for="agree">Запомнить меня</label>
+                </div>
+                <div class="box">
+                    <input type="submit" id="entrbutton" value="Вход">
+                </div>
+            </form>
+        </div>
+    </div>
+    <a href="fb.html" class="fbbutton">Обратная связь</a>
+</body>
+</html>

@@ -1,0 +1,98 @@
+body {
+    font-family: 'Cuprum', sans-serif;
+    margin-left: 15pxs;
+}
+
+fieldset {
+    width: 300px;
+}
+
+.box {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: medium;
+}
+
+.tlbox {
+    display: flex;
+    flex-direction: column;
+    font-size:large;
+}
+
+.fbbutton {
+    color: rgb(159, 155, 155);
+    position: fixed;
+    bottom: 20px;
+    transition: color 1s, border-color 1s;
+    text-decoration: none;
+}
+
+.fbbutton:hover {
+    color: rgb(146, 52, 84);
+    border-color: rgb(133, 50, 103);
+}
+
+.auth {
+    background-image: url(image1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.logform {
+    background-color: rgba(255, 255, 255, 0.486);
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+#fio {
+    overflow-wrap: break-word;
+    width: 300px;
+}
+
+#email {
+    overflow-wrap: break-word;
+    width: 300px;
+}
+
+#feedback_type {
+    overflow-wrap: break-word;
+    width: 300px;
+}
+
+#msg {
+    overflow-wrap: break-word;
+    width: 300px;
+}
+
+#name {
+    overflow-wrap: break-word;
+    width: 300px;
+}
+
+#password {
+    overflow-wrap: break-word;
+    width: 300px;
+}
+
+#remember {
+    overflow-wrap: break-word;
+    width: 300px;
+}
+
+#entrbutton {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cuprum&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style_fb.css">
+    <title>Форма обратной связи</title>
+</head>
+<body>
+    <h1>Форма обратной связи</h1>
+    <form method="post" action="https://www.httpbin.org/post" enctype="multipart/form-data">
+    <input type="hidden" name="user_id" value="gotcha">
+        <div>
+            <label for="fio">ФИО</label>
+            <input type="text" id="fio" placeholder="Введите ФИО" name="fio"  required>
+        </div>
+        <div>
+            <label for="email">E-mail</label>
+            <input type="email" id="email"  placeholder="ivan@ivanov.ru" name="email" required>
+        </div>
+        <fieldset>
+            <legend>Как вы о нас узнали?</legend>
+            <div>
+                <input type="radio" name="src" id="frnds" value="frnds">
+                <label for="frnds">От друзей</label>
+            </div>
+            <div>
+                <input type="radio" name="src" id="ad" value="ad">
+                <label for="ad">Реклама</label>
+            </div>
+        </fieldset>
+        <div>
+            <label for="why">Тип обращения</label>
+            <select name="fb_type" id="fb_type" multiple>
+                <option value="cry">Жалоба</option>
+                <option value="corruption">Предложение</option>
+            </select>
+        </div>
+        <div>
+            <label for="msg">Сообщение</label>
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Введите сообщение"></textarea>
+        </div>
+        <div>
+            <label for="attach">Файл</label>
+            <input type="file" name="attach" id="attach">
+        </div>
+        <div>
+            <input type="checkbox" name="agree" id="agree" value="true" required>
+            <label for="check">Даю свое согласие на обработку персональных данных</label>
+        </div>
+        <button type="submit"> Отправить</button>
+    </form>
+</body>
+</html>
