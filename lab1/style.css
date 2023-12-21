@@ -1,0 +1,100 @@
+body {
+  font-family: 'Geologica', sans-serif;
+    background-color: whitesmoke;
+    color: #000000;
+    background-image: url(white-triangle-369b8d2d.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+  
+  header {
+    background-color: lightsteelblue;
+    color: black;
+    padding: 10px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+  
+  nav {
+    background-image: url(white-triangle-369b8d2d.jpg);
+    background-size: cover;
+    background-color: whitesmoke;
+    padding: 10px;
+  }
+  
+  a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 10px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 1.7em;
+  }
+  
+  p {
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  
+  footer {
+    background-color: lightsteelblue;
+    padding: 10px;
+  }
+
+  .btn {
+    border: 2px solid black;
+    padding: 2px;
+    border-radius: 10px;
+    transition: color 0.3s linear;
+  }
+
+  .btn:hover {
+    color: blue;
+  }
+
+  .text_desc {
+      text-align: center;
+  }
+
+  .main_link {
+    transition: color 0.3s linear;
+  }
+
+  .main_link:hover {
+    color: blue;
+  }
+
+  .main_menu {
+    transition: color 0.3s linear;
+  }
+
+  .main_menu:hover {
+    color: blue;
+  }
+
+  .photo {
+    border: 2px solid black;
+    border-radius: 10px;
+    
+  }
+
+  .table{
+    border-collapse: collapse;
+  } 
+
+  .table th, .table td{
+    border: 2px solid #000000;
+    padding: 5px;
+    text-align: center;
+  }
