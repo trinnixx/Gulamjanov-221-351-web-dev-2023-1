@@ -1,0 +1,117 @@
+body {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    background-image: url(img/background.png);
+}
+
+.header {
+    background-color: rgb(242, 182, 114);
+    text-align: center;
+    padding: 20px;
+    margin-left: 5;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#home img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: rgb(242, 182, 114);
+    text-align: center;
+    padding: 10px;
+}
+
+#cars {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.car-card {
+    flex: 1;
+    background-color: #ededed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+.car-card img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.car-card h3 {
+    color: #333;
+}
+
+.car-card p {
+    color: #666;
+}
+
+#tips {
+    padding: 20px;
+}
+
+#tips p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+}
+
+#tips ul {
+    margin-top: 20px;
+}
+
+#tips ul li {
+    margin-bottom: 10px;
+    color: #3e3e3e;
+}
+
+#contact {
+    text-align: center;
+    padding: 20px;
+}
+
+#contact address {
+    font-size: 18px;
+    color: #333;
+}
+
+#contact a {
+    color: #ffff00;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}

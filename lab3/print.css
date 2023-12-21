@@ -1,0 +1,12 @@
+/* Hide navigation and footer in print view */
+header, footer {
+    display: none;
+}
+
+#cars {
+    flex-wrap: nowrap;
+}
+
+.car-card {
+    padding: 0;
+}
